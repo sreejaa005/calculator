@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="calc_container">
+    <p class="heading">Calculator</p>
+    
+        
+    <input class="js-display display" >
+    <div class="input_container">
+    <div class="row row1 ">
+        <button class="item-1" onclick="updation('7')">7</button>
+        <button class="item-2" onclick="updation('8')">8</button>
+        <button class="item-3" onclick="updation('9')">9</button>
+        <button class="item-4" onclick="del()">DEL</button> 
+    </div>
+    <div class="row row2">
+        <button class="item-5" onclick="updation('4')">4</button>
+        <button class="item-6" onclick="updation('5')">5</button>
+        <button class="item-7" onclick="updation('6')">6</button>
+        <button class="item-8" onclick="updation('+')">+</button>
+    </div>
+    <div class=" row row3">
+        <button class="item-9" onclick="updation('1')">1</button>
+        <button class="item-10" onclick="updation('2')">2</button>
+        <button class="item-11" onclick="updation('3')">3</button>
+        <button class="item-12" onclick="updation('-')">-</button>
+        
+    </div>
+    <div class=" row row4">
+        <button class="item-13" onclick="updation('.')">.</button>
+        <button class="item-14" onclick="updation('0')">0</button>
+        <button class="item-15" onclick="updation('/')">/</button> 
+        <button class="item-16" onclick="updation('*')">x</button>
+
+    </div>
+    <div class=" row row5">
+        
+        <button class="item-17" onclick="_clear()">RESET</button>
+        <button class="item-18" onclick=" calculator = eval(calculator); _eval(calculator) ">=</button>
+    </div>
+    </div>
+    <script src="index.js"></script>
+      
+</body>
+</html>
